@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Mon Application</string>
     <string name="hint_image1">Image 1</string>
     <string name="hint_image2">Image 2</string>
     <string name="hint_telephone">Téléphone</string>
@@ -9,4 +9,7 @@
     <string name="hint_enregistrer">Enregistrer</string>
     <string name="hint_avatarUrl">Url Photo/Avatar</string>
     <string name="hint_name">Nom</string>
+    <string name="error_telephone">Le téléphone doit être au format (06 ou 07) XX XX XX XX</string>
+    <string name="list_neighbors_fragment">Liste des Voisins</string>
+    <string name="add_neighbors_fragment">Ajouter Un Voisin</string>
 </resources>

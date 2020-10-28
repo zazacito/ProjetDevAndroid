@@ -41,6 +41,7 @@ class ListNeighborsFragment : Fragment(),ListNeighborHandler {
             )
         )
         addButton = view.findViewById(R.id.btn_add)
+
         return view
     }
 
@@ -50,6 +51,9 @@ class ListNeighborsFragment : Fragment(),ListNeighborHandler {
         val adapter = ListNeighborsAdapter(neighbors, this)
         recyclerView.adapter = adapter
 
+        (activity as? NavigationListener)?.let {
+            it.updateTitle(R.string.list_neighbors_fragment)
+        }
         addButton.setOnClickListener {
             (activity as? NavigationListener)?.let {
                 it.showFragment(AddNeighbourFragment())

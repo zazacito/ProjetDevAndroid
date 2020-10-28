@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hint_image1">Image 1</string>
+    <string name="hint_image2">Image 2</string>
+    <string name="hint_telephone">Phone</string>
+    <string name="hint_website">WebSite</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_apropos">About Me</string>
+    <string name="hint_enregistrer">Save</string>
+    <string name="hint_avatarUrl">Url Picture/Avatar</string>
+    <string name="hint_name">Name</string>
+    <string name="error_telephone">The phone number must be like: (06 ou 07) XX XX XX XX</string>
+    <string name="list_neighbors_fragment">Neighbours List</string>
+    <string name="add_neighbors_fragment">Add a Neighbour</string>
+</resources>
